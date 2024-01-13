@@ -1,0 +1,182 @@
+@font-face {
+    font-family: against regular;
+    src: url('/assets/against\ regular.ttf');
+}
+
+#aboutme {
+    margin: 0;
+    background: url("/assets/backabout.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* background image and applying some fliter to it */
+/* #aboutme::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    /* background-image: url("/assets/backabout.jpg"); */
+/* filter: drop-shadow(2px 4px 6px black); */
+/* Adjust the grayscale value as needed */
+/* z-index: -1; */
+/* }  */
+
+#mywork {
+
+    height: max-content;
+    margin: 0;
+    background-color: black;
+
+}
+
+#links {
+    height: max-content;
+    margin: 0;
+    background-color: black;
+}
+
+.spearator {
+    border: 10px solid #483f64;
+    /* Specify border properties to create a line */
+    margin: 0px;
+    /* Adjust margin for spacing */
+}
+
+h1,
+h2,
+h3,
+p {
+    color: antiquewhite;
+}
+
+
+h2 {
+    padding-left: 10%;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#thingsh2 {
+    font-size: 40px;
+}
+
+/* 
+.mainab {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+} */
+
+.aboutmediv {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+#about {
+    margin: 0;
+    padding-left: 5%;
+}
+
+#me {
+    float: right;
+    padding-right: 40%;
+    margin: 0;
+}
+
+.headingab {
+    font-size: 80px;
+}
+
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.gdiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gwebsite {
+    flex-direction: row;
+    width: 90%;
+}
+
+.gwebsite>a {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.website {
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+}
+
+#cgame {
+    width: 50%;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: bisque;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .aboutmediv,
+    #aboutme {
+        height: 73vh;
+    }
+
+    .mainab {
+        height: 60vh;
+    }
+
+    .headingab {
+        font-size: 40px;
+    }
+
+    .gwebsite {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .website {
+        width: 90%;
+        height: 300px;
+    }
+
+    #tinkercad,
+    #cgame {
+        width: 90%;
+        height: 400px;
+    }
+
+    #links {
+        margin: 0;
+        background-color: black;
+    }
+}
